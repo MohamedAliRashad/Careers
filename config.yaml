@@ -1,0 +1,25 @@
+# The recieving email
+email: example@example.com
+
+# SMTP credentials 
+SecureToken: null
+
+# What title do you want on the email ?
+EmailSubject: Hiring Application
+
+# Company information
+name: Careers
+slogan: We do what is needed to be done
+icon: https://raw.githubusercontent.com/MohamedAliRashad/Careers/c41d01bce9e56b146449786160250a13a94826e2/assets/career.svg
+tickets:
+  - Name: Neural Network
+    Description: Apply cutting-edge research to train deep neural networks on problems ranging from perception to control. Our per-camera networks analyze raw images to perform semantic segmentation, object detection and monocular depth estimation. Our birds-eye-view networks take video from all cameras to output the road layout, static infrastructure and 3D objects directly in the top-down view. Our networks learn from the most complicated and diverse scenarios in the world, iteratively sourced from our fleet of nearly 1M vehicles in real time. A full build of Autopilot neural networks involves 48 networks that take 70,000 GPU hours to train 🔥. Together, they output 1,000 distinct tensors (predictions) at each timestep.
+    MediaSource: https://github.com/MohamedAliRashad/Careers/blob/master/assets/neural_networks.jpeg?raw=true
+  
+  - Name: Hardware
+    Description: Build silicon chips that power our full self-driving software from the ground up, taking every small architectural and micro-architectural improvement into account while pushing hard to squeeze maximum silicon performance-per-watt. Perform floor-planning, timing and power analyses on the design. Write robust, randomized tests and scoreboards to verify functionality and performance. Implement compilers and drivers to program and communicate with the chip, with a strong focus on performance optimization and power savings. Finally, validate the silicon chip and bring it to mass production.
+    MediaSource: https://github.com/MohamedAliRashad/Careers/blob/master/assets/hardware.jpeg?raw=true
+  
+  - Name: Sensor Fusion
+    Description: Develop the core algorithms that drive the car by creating a high-fidelity representation of the world and planning trajectories in that space. In order to train the neural networks to predict such representations, algorithmically create accurate and large-scale ground truth data by combining information from the car's sensors across space and time. Use state-of-the-art techniques to build a robust planning and decision-making system that operates in complicated real-world situations under uncertainty. Evaluate your algorithms at the scale of the entire Tesla fleet.
+    MediaSource: https://github.com/MohamedAliRashad/Careers/blob/master/assets/sensor.jpg?raw=true
