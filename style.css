@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-font-size: 1.6rem;
+  --body-font-color: #222831;
+  --body-heading-color: #00adb5;
+  --body-items-color: #eeeeee;
+  --body-background-color: #eeeeee;
+  --body-font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--body-font-family);
+  color: var(--body-font-color);
+  font-size: var(--body-font-size);
+  max-width: 1366px;
+  margin: auto auto;
+  background-color: var(--body-background-color);
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.page {
+  text-align: center;
+  margin: 5rem 0;
+  line-height: 1.5;
+}
+
+.page h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.tickets {
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket {
+  display: flex;
+  margin: 2rem 6rem;
+  transition: color 0.5s, transform 0.2s;
+  padding: 5rem;
+  border-radius: 2rem;
+}
+
+.ticket:hover {
+  background-color: var(--body-font-color);
+  color: var(--body-background-color);
+  transform: translateY(-1rem);
+}
+
+.ticket img {
+  width: 30rem;
+}
+
+.description {
+  margin-left: 1.5rem;
+}
+
+.footer {
+  background-color: var(--body-font-color);
+  color: var(--body-background-color);
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding: 1rem 0;
+  justify-content: center;
+  align-self: center;
+  min-width: 1366px;
+}
