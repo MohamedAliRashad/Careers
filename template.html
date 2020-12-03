@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ name }}</title>
+    <link rel="stylesheet" href="master.css">
+    <link rel="icon" type="assets" href="career.svg">
+</head>
+
+<body>
+    <section>
+        <div class="page">
+            <h1>{{ name }}</h1>
+            <p style="text-align: center;">{{ slogan }}</p><br>
+        </div>
+    </section>
+
+    <section>
+        {% for ticket in tickets %}
+        <div>
+            <p><img src="{{ ticket['MediaSource'] }}" alt="image">
+                <h2>{{ ticket["Name"] }}</h2>
+                {{ ticket["Description"] }}
+            </p>
+        </div>
+        <br> {% endfor %}
+    </section>
+    <section>
+        <p>Help Revolutionize the World with Full Self-Driving!</p>
+    </section>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- <script>
+
+        Email.send({
+            SecureToken: "{{ SecureToken }}",
+            To: "{{ email }}",
+            From: "example",
+            Subject: "{{ EmailSubject }}",
+            Body: "And this is the body",
+            Attachments: [
+                {
+                    name: "CV.pdf",
+                    path: "https://networkprogramming.files.wordpress.com/2017/11/smtpjs.png"
+                }]
+        }).then(
+            message => alert(message)
+        );
+    </script> -->
+</body>
