@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ name }}</title>
     <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="assets" href="career.svg">
 </head>
 
@@ -18,17 +19,20 @@
         </div>
     </section>
 
-    <section>
+    <section class="tickets">
         {% for ticket in tickets %}
-        <div>
-            <p><img src="{{ ticket['MediaSource'] }}" alt="image">
+        <div class="ticket">
+            <img src="{{ ticket['MediaSource'] }}" alt="image">
+            <div class="description">
                 <h2>{{ ticket["Name"] }}</h2>
-                {{ ticket["Description"] }}
-            </p>
+                <p>
+                    {{ ticket["Description"] }}
+                </p>
+            </div>
         </div>
-        <br> {% endfor %}
+        {% endfor %}
     </section>
-    <section>
+    <section class="footer">
         <p>Help Revolutionize the World with Full Self-Driving!</p>
     </section>
 
