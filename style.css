@@ -22,6 +22,7 @@ body {
   color: var(--body-font-color);
   font-size: var(--body-font-size);
   max-width: 1366px;
+  min-width: fit-content;
   margin: auto auto;
   background-color: var(--body-background-color);
 }
@@ -50,10 +51,11 @@ a {
 
 .ticket {
   display: flex;
-  margin: 2rem 6rem;
+  margin: auto;
   transition: color 0.5s, transform 0.2s;
-  padding: 5rem;
+  padding: 2rem 5rem;
   border-radius: 2rem;
+  max-width: 99rem;
 }
 
 .ticket:hover {
@@ -63,21 +65,32 @@ a {
 }
 
 .ticket img {
-  width: 30rem;
+  max-width: 24rem;
+  height: auto;
+  border-radius: 1rem;
+  margin: 1rem;
 }
 
 .description {
   margin-left: 1.5rem;
+  line-height: 1.5;
+}
+.description h2 {
+  line-height: 50px;
+  letter-spacing: 1.5px;
 }
 
 .footer {
   background-color: var(--body-font-color);
   color: var(--body-background-color);
-  position: fixed;
+  width: 100%;
   bottom: 0;
   text-align: center;
   padding: 1rem 0;
-  justify-content: center;
-  align-self: center;
-  min-width: 1366px;
+}
+
+@media only screen and (max-width: 768px) {
+  .ticket {
+    flex-direction: column;
+  }
 }
