@@ -6,118 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Careers</title>
+    <link rel="stylesheet" href="master.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="https://github.com/MohamedAliRashad/Careers/blob/master/assets/career.svg?raw=true">
+    <link rel="icon" type="assets" href=https://raw.githubusercontent.com/MohamedAliRashad/Careers/16c82ec798786ff81a3fc40db1f57c7b0923f5ef/assets/career.svg>
 </head>
 
 <body>
-    <button onclick="toggle()">Switch Language</button>
-
-    <h1><span lang="en">Hello</span> <span lang="es">Hola</span></h1>
-
-    <p lang="en">I really enjoy coding.</p>
-
-    <p lang="es">Me gusta mucho la codificación.</p>
-
     <section>
         <div class="page">
             <h1>Careers</h1>
-            <p style="text-align: center">We do what is needed to be done</p>
-            <br>
+            <p style="text-align: center;">We do what is needed to be done</p><br>
         </div>
-        <div class="toggle">
-            <div class="mask">
-                <div class="icon-wrap active">
-                    <div class="icon sun"></div>
-                </div>
-                <div class="icon-wrap">
-                    <svg copy="icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-                        <path
-                            d="M187.73 151.4c0-55.24 29.34-104.19 76.27-129.72C242.21 9.81 216.56 3 188.15 3 99.15 3 36.2 70.46 36.2 151.4S98.3 299 187.33 299c28.26 0 53.87-6.82 75.69-18.69-46.48-25.31-75.29-73.8-75.29-128.91z"
-                            fill="#283445" /></svg>
-                </div>
-            </div>
-            <div class="bar"></div>
-        </div>
-        <br>
     </section>
 
-    <section>
-
-        <div>
+    <section class="tickets">
+        
+        <div class="ticket">
             <img src="https://github.com/MohamedAliRashad/Careers/blob/master/assets/neural_networks.jpg?raw=true" alt="image">
-            <h2>Neural Network</h2>
-            Apply cutting-edge research to train deep neural networks on problems ranging from perception to control. Our per-camera networks analyze raw images to perform semantic segmentation, object detection and monocular depth estimation. Our birds-eye-view
-            networks take video from all cameras to output the road layout, static infrastructure and 3D objects directly in the top-down view. Our networks learn from the most complicated and diverse scenarios in the world, iteratively sourced from our
-            fleet of nearly 1M vehicles in real time. A full build of Autopilot neural networks involves 48 networks that take 70,000 GPU hours to train 🔥. Together, they output 1,000 distinct tensors (predictions) at each timestep.
-
+            <div class="description">
+                <h2>Neural Network</h2>
+                <p>
+                    Apply cutting-edge research to train deep neural networks on problems ranging from perception to control. Our per-camera networks analyze raw images to perform semantic segmentation, object detection and monocular depth estimation. Our birds-eye-view networks take video from all cameras to output the road layout, static infrastructure and 3D objects directly in the top-down view. Our networks learn from the most complicated and diverse scenarios in the world, iteratively sourced from our fleet of nearly 1M vehicles in real time. A full build of Autopilot neural networks involves 48 networks that take 70,000 GPU hours to train 🔥. Together, they output 1,000 distinct tensors (predictions) at each timestep.
+                </p>
+            </div>
         </div>
-        <br>
-
-        <div>
+        
+        <div class="ticket">
             <img src="https://github.com/MohamedAliRashad/Careers/blob/master/assets/hardware.jpeg?raw=true" alt="image">
-            <h2>Hardware</h2>
-            Build silicon chips that power our full self-driving software from the ground up, taking every small architectural and micro-architectural improvement into account while pushing hard to squeeze maximum silicon performance-per-watt. Perform floor-planning,
-            timing and power analyses on the design. Write robust, randomized tests and scoreboards to verify functionality and performance. Implement compilers and drivers to program and communicate with the chip, with a strong focus on performance optimization
-            and power savings. Finally, validate the silicon chip and bring it to mass production.
-
+            <div class="description">
+                <h2>Hardware</h2>
+                <p>
+                    Build silicon chips that power our full self-driving software from the ground up, taking every small architectural and micro-architectural improvement into account while pushing hard to squeeze maximum silicon performance-per-watt. Perform floor-planning, timing and power analyses on the design. Write robust, randomized tests and scoreboards to verify functionality and performance. Implement compilers and drivers to program and communicate with the chip, with a strong focus on performance optimization and power savings. Finally, validate the silicon chip and bring it to mass production.
+                </p>
+            </div>
         </div>
-        <br>
-
-        <div>
+        
+        <div class="ticket">
             <img src="https://github.com/MohamedAliRashad/Careers/blob/master/assets/sensor.jpg?raw=true" alt="image">
-            <h2>Sensor Fusion</h2>
-            Develop the core algorithms that drive the car by creating a high-fidelity representation of the world and planning trajectories in that space. In order to train the neural networks to predict such representations, algorithmically create accurate and
-            large-scale ground truth data by combining information from the car's sensors across space and time. Use state-of-the-art techniques to build a robust planning and decision-making system that operates in complicated real-world situations under
-            uncertainty. Evaluate your algorithms at the scale of the entire Tesla fleet.
-
+            <div class="description">
+                <h2>Sensor Fusion</h2>
+                <p>
+                    Develop the core algorithms that drive the car by creating a high-fidelity representation of the world and planning trajectories in that space. In order to train the neural networks to predict such representations, algorithmically create accurate and large-scale ground truth data by combining information from the car's sensors across space and time. Use state-of-the-art techniques to build a robust planning and decision-making system that operates in complicated real-world situations under uncertainty. Evaluate your algorithms at the scale of the entire Tesla fleet.
+                </p>
+            </div>
         </div>
-        <br>
-
+        
     </section>
-    <section>
+    <section class="footer">
         <p>Help Revolutionize the World with Full Self-Driving!</p>
     </section>
 
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        // document.querySelector(".mask").click(function() {
-        //     document.querySelector(".icon-wrap").toggleClass('active');
-        //     document.querySelector('body, .bar').toggleClass('dark');
-        // });
-        // console.log(document.querySelectorAll("#switch-lang"));
-        document.querySelectorAll("[lang='es']").forEach((ele) => ele.style.display = 'none');
+    <!-- <script>
 
-        function toggle() {
-            var x = document.querySelector("[lang='es']");
-            console.log(x.style.display)
-            if (x.style.display === "none") {
-                console.log("Here")
-                document.querySelectorAll("[lang='es']").forEach((ele) => ele.style.display = "block");
-                document.querySelectorAll("[lang='en']").forEach((ele) => ele.style.display = "none");
-            } else {
-                document.querySelectorAll("[lang='es']").forEach((ele) => ele.style.display = "none");
-                document.querySelectorAll("[lang='en']").forEach((ele) => ele.style.display = "block");
-            }
-        }
-        // document.querySelector("#switch-lang").click(function() {
-        //         console.log("Here")
-        //         document.querySelectorALl("[lang='es']").forEach(toggle(ele));
-        //         document.querySelectorAll("[lang='en']").forEach(toggle(ele));
-        //     })
-        // Email.send({
-        //     SecureToken: "None",
-        //     To: "example@example.com",
-        //     From: "example",
-        //     Subject: "Hiring Application",
-        //     Body: "And this is the body",
-        //     Attachments: [
-        //         {
-        //             name: "CV.pdf",
-        //             path: "https://networkprogramming.files.wordpress.com/2017/11/smtpjs.png"
-        //         }]
-        // }).then(
-        //     message => alert(message)
-        // );
-    </script>
+        Email.send({
+            SecureToken: "None",
+            To: "example@example.com",
+            From: "example",
+            Subject: "Hiring Application",
+            Body: "And this is the body",
+            Attachments: [
+                {
+                    name: "CV.pdf",
+                    path: "https://networkprogramming.files.wordpress.com/2017/11/smtpjs.png"
+                }]
+        }).then(
+            message => alert(message)
+        );
+    </script> -->
 </body>
