@@ -1,7 +1,7 @@
 # The recieving email
 email: example@example.com
 
-# SMTP credentials 
+# SMTP credentials
 SecureToken: null
 
 # What title do you want on the email ?
@@ -15,11 +15,23 @@ tickets:
   - Name: Neural Network
     Description: Apply cutting-edge research to train deep neural networks on problems ranging from perception to control. Our per-camera networks analyze raw images to perform semantic segmentation, object detection and monocular depth estimation. Our birds-eye-view networks take video from all cameras to output the road layout, static infrastructure and 3D objects directly in the top-down view. Our networks learn from the most complicated and diverse scenarios in the world, iteratively sourced from our fleet of nearly 1M vehicles in real time. A full build of Autopilot neural networks involves 48 networks that take 70,000 GPU hours to train 🔥. Together, they output 1,000 distinct tensors (predictions) at each timestep.
     MediaSource: https://github.com/MohamedAliRashad/Careers/blob/master/assets/neural_networks.jpg?raw=true
-  
+
   - Name: Hardware
     Description: Build silicon chips that power our full self-driving software from the ground up, taking every small architectural and micro-architectural improvement into account while pushing hard to squeeze maximum silicon performance-per-watt. Perform floor-planning, timing and power analyses on the design. Write robust, randomized tests and scoreboards to verify functionality and performance. Implement compilers and drivers to program and communicate with the chip, with a strong focus on performance optimization and power savings. Finally, validate the silicon chip and bring it to mass production.
     MediaSource: https://github.com/MohamedAliRashad/Careers/blob/master/assets/hardware.jpeg?raw=true
-  
+
   - Name: Sensor Fusion
     Description: Develop the core algorithms that drive the car by creating a high-fidelity representation of the world and planning trajectories in that space. In order to train the neural networks to predict such representations, algorithmically create accurate and large-scale ground truth data by combining information from the car's sensors across space and time. Use state-of-the-art techniques to build a robust planning and decision-making system that operates in complicated real-world situations under uncertainty. Evaluate your algorithms at the scale of the entire Tesla fleet.
+    MediaSource: https://github.com/MohamedAliRashad/Careers/blob/master/assets/sensor.jpg?raw=true
+artickets:
+  - Name: الشبكة العصبية
+    Description: قم بتطبيق أحدث الأبحاث لتدريب الشبكات العصبية العميقة على مشاكل تتراوح من الإدراك إلى التحكم. تقوم شبكاتنا لكل كاميرا بتحليل الصور الأولية لإجراء التجزئة الدلالية ، واكتشاف الكائنات وتقدير العمق الأحادي. تلتقط شبكات رؤية الطيور الخاصة بنا مقاطع فيديو من جميع الكاميرات لإخراج تخطيط الطريق والبنية التحتية الثابتة والكائنات ثلاثية الأبعاد مباشرةً في العرض من أعلى إلى أسفل. تتعلم شبكاتنا من أكثر السيناريوهات تعقيدًا وتنوعًا في العالم ، ويتم الحصول عليها بشكل متكرر من أسطولنا المكون من مليون مركبة تقريبًا في الوقت الفعلي. يتضمن البناء الكامل للشبكات العصبية الطيار الآلي 48 شبكة تستغرق تدريب 70000 ساعة من GPU. معًا ، ينتجون 1000 موتر (تنبؤات) مميزة في كل خطوة زمنية.
+    MediaSource: https://github.com/MohamedAliRashad/Careers/blob/master/assets/neural_networks.jpg?raw=true
+
+  - Name: Hardware
+    Description: قم ببناء رقائق السيليكون التي تشغل برنامج القيادة الذاتية الكامل لدينا من الألف إلى الياء ، مع مراعاة كل التحسينات المعمارية الصغيرة والمعمارية الدقيقة مع الضغط بشدة على ضغط أقصى أداء للسيليكون لكل واط. إجراء تحليلات تخطيط الأرضية والتوقيت والطاقة على التصميم. اكتب اختبارات عشوائية ولوحات تسجيل قوية للتحقق من الأداء الوظيفي والأداء. قم بتنفيذ المجمعات وبرامج التشغيل لبرمجة الشريحة والتواصل معها ، مع التركيز القوي على تحسين الأداء وتوفير الطاقة. أخيرًا ، تحقق من صحة شريحة السيليكون وإحضاره إلى الإنتاج الضخم.
+    MediaSource: https://github.com/MohamedAliRashad/Careers/blob/master/assets/hardware.jpeg?raw=true
+
+  - Name: جهاز استشعار الانصهار
+    Description: قم بتطوير الخوارزميات الأساسية التي تقود السيارة من خلال إنشاء تمثيل عالي الدقة للعالم وتخطيط المسارات في تلك المساحة. من أجل تدريب الشبكات العصبية على التنبؤ بمثل هذه التمثيلات ، أنشئ خوارزميًا بيانات دقيقة وواسعة النطاق لحقيقة الأرض من خلال دمج المعلومات من مستشعرات السيارة عبر المكان والزمان. استخدم أحدث التقنيات لبناء نظام قوي للتخطيط واتخاذ القرار يعمل في مواقف واقعية معقدة في ظل عدم اليقين. قم بتقييم الخوارزميات الخاصة بك على نطاق أسطول Tesla بأكمله.
     MediaSource: https://github.com/MohamedAliRashad/Careers/blob/master/assets/sensor.jpg?raw=true

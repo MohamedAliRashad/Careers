@@ -32,6 +32,28 @@ a {
   text-decoration: none;
 }
 
+.btn {
+  position: absolute;
+  background-color: var(--body-background-color);
+  color: var(--body-font-color);
+  border: none;
+  border-radius: 1.5rem;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#en-btn {
+  display: none;
+}
+
+.btn:hover {
+  background-color: var(--body-font-color);
+  color: var(--body-background-color);
+}
+
 .page {
   text-align: center;
   margin: 5rem 0;
@@ -75,6 +97,7 @@ a {
   margin-left: 1.5rem;
   line-height: 1.5;
 }
+
 .description h2 {
   line-height: 50px;
   letter-spacing: 1.5px;
@@ -89,8 +112,41 @@ a {
   padding: 1rem 0;
 }
 
+/*************************************************** Arabic Style ******************************************************/
+.ar-ticket {
+  display: none;
+  direction: rtl;
+  margin: auto;
+  transition: color 0.5s, transform 0.2s;
+  padding: 2rem 5rem;
+  border-radius: 2rem;
+  max-width: 99rem;
+}
+.ar-ticket:hover {
+  background-color: var(--body-font-color);
+  color: var(--body-background-color);
+  transform: translateY(-1rem);
+}
+.ar-ticket img {
+  max-width: 24rem;
+  height: auto;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+.ar-description {
+  margin-left: 1.5rem;
+  line-height: 1.5;
+}
+.ar-description h2 {
+  line-height: 50px;
+  letter-spacing: 1.5px;
+}
+
 @media only screen and (max-width: 768px) {
   .ticket {
+    flex-direction: column;
+  }
+  .ar-ticket {
     flex-direction: column;
   }
 }
